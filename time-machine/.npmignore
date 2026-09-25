@@ -1,0 +1,13 @@
+node_modules/
+.vs/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+desktop.ini
+dist/
+tests/build/
+
+# Cowork working folder and release zips never ship
+Claude outputs/
+*.zip

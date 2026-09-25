@@ -1,0 +1,13 @@
+{
+  "granularity": "day",
+  "defaultMode": "single",
+  "allowRange": true,
+  "allowCompare": true,
+  "allowPlay": true,
+  "autoDiscover": true,
+  "fitRangeToData": true,
+  "restoreOnClose": true,
+  "showLayerList": true,
+  "showDateInputs": true,
+  "showHelp": true
+}

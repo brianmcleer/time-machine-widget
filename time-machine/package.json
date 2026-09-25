@@ -1,0 +1,26 @@
+{
+  "name": "time-machine",
+  "version": "1.0.0",
+  "description": "Experience Builder widget: one date slider that filters every dated layer in the map to a date or range, with year snapshots and a side-by-side compare, no time-enabled services required.",
+  "keywords": [
+    "exb-widget",
+    "experience-builder",
+    "exb",
+    "time",
+    "time-slider",
+    "date",
+    "history",
+    "compare",
+    "swipe",
+    "arcgis",
+    "presentation",
+    "story"
+  ],
+  "license": "Apache-2.0",
+  "author": "Brian McLeer",
+  "dependencies": {},
+  "scripts": {
+    "test": "node tests/transpile.js && node --test tests/*.test.js",
+    "typecheck": "tsc -p ."
+  }
+}

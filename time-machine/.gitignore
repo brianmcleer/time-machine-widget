@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# Visual Studio / editor caches
+.vs/
+*.user
+*.suo
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# build output
+dist/
+
+# Cowork working folder and release zips never ship
+Claude outputs/
+*.zip
+
+# test emit
+tests/build/

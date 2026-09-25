@@ -1,0 +1,89 @@
+{
+  // Visual Studio type-check helper for Experience Builder 1.21 (pnpm).
+  // IDE-only, noEmit. Webpack builds the widget with EB's own client tsconfig
+  // and ignores this file. Companions: src/exb-editor-shims.d.ts (a copy of
+  // the master at client\your-extensions\widgets\_vs\exb-editor-shims.d.ts;
+  // copy it, do not rewrite it) and src/vendor-shims.d.ts
+  // for the few modules only this widget needs.
+  //
+  // MODE B, self-contained. See the widget handoff, section 12 item 3. On this
+  // install Visual Studio cannot read any file under client\node_modules
+  // (IDE1100 "Access to the path is denied" on the pnpm junctions), so:
+  //   - no "baseUrl" and no "paths": nothing resolves into client\jimu-core
+  //     or client\node_modules. react, jimu-core, jimu-arcgis, jimu-ui,
+  //     jimu-theme and esri/* are all declared in the shim files instead.
+  //   - "types": [] stops the automatic @types/* scan of node_modules, which
+  //     is where the @types\lodash, @types\uuid, @types\react-dom IDE1100
+  //     lines came from.
+  //   - strict false: VS otherwise applies noImplicitAny (TS7006/TS7026).
+  //
+  // This file previously used mode A (baseUrl "../../.." plus paths for
+  // jimu-*, esri/*, react). Mode A on an install that reports IDE1100 is the
+  // combination the handoff warns about: "paths" adds the resolved files to
+  // the program even when an ambient declare module wins the binding, so all
+  // of client\jimu-core\lib was pulled in and Esri's own sources were
+  // reported as this widget's errors (TS2503 on __esri, TS2306 "is not a
+  // module" on react-intl and seamless-immutable, TS2305/TS2307 on @esri/*).
+  // If jimu-core files appear in the File column of the Error List, a paths
+  // entry has come back.
+  //
+  // If VS ever regains read access to node_modules (reinstalling the EB
+  // client with node-linker=hoisted in client\.npmrc), the real types can be
+  // restored by switching to mode A: add "baseUrl": "../../.." and
+  // "paths": { "jimu-*": ["jimu-*"], "esri/*": ["node_modules/@arcgis/core/*"] }
+  // and delete the react/jimu blocks from the shim file.
+  //
+  // Place at the widget root next to manifest.json, in the EB source folder.
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": [ "ESNext", "DOM", "DOM.Iterable" ],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "types": [],
+    // typeRoots [] with types [] is belt-and-braces: types:[] stops the
+    // automatic @types inclusion, typeRoots:[] also stops the directory walk
+    // that looks for one. Without both, Visual Studio was still opening
+    // client\node_modules\@types\react\index.d.ts and reporting IDE1100.
+    "typeRoots": [],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noEmit": true
+  },
+  // Named explicitly, not left to the include globs: if these two files are
+  // not in the program then NOTHING is declared, and every jimu/react import
+  // in the widget fails with TS2307 while node_modules gets read for real.
+  // That is the failure this guards against. "files" and "include" are
+  // unioned, so the globs below still pick up everything else.
+  // ORDER MATTERS. The first ambient declaration of a module id wins, and the
+  // shared shim declares 'jimu-for-builder' and 'jimu-ui/*' in SHORTHAND form
+  // (declare module 'x';), which makes every import from them a namespace
+  // rather than a type. The companion re-declares those two with real shapes,
+  // so it has to be seen first or settings.tsx fails with TS2709 on
+  // AllWidgetSettingProps. Listing the companion first keeps that
+  // deterministic instead of depending on how the include globs happen to
+  // sort, and leaves the shared shim a clean overwrite when the master at
+  // widgets\_vs is updated.
+  "files": [
+    "src/vendor-shims.d.ts",
+    "src/exb-editor-shims.d.ts"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".vs"
+  ]
+}

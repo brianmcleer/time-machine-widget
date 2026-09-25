@@ -1,0 +1,36 @@
+{
+  "name": "time-machine",
+  "label": "Time Machine",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.21.0",
+  "author": "Brian McLeer, City of Grand Junction",
+  "description": "One date slider that drives every dated layer in the map. Feature layers, hosted layers and map image sublayers with a date field are filtered client side to the chosen date or range, group layers of yearly snapshots switch to the matching year, and Compare mode shows two dates side by side behind a divider. Presentation mode puts a large date banner with story chapters on the map. No time-enabled services needed.",
+  "copyright": "2026 City of Grand Junction, CO",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasConfig": true
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "defaultSize": {
+    "width": 340,
+    "height": 420
+  },
+  "messageActions": [
+    {
+      "name": "setDate",
+      "label": "Set the Time Machine date",
+      "uri": "message-actions/set-date-action",
+      "messageTypes": [
+        "DATA_RECORDS_SELECTION_CHANGE",
+        "DATA_RECORD_SET_CHANGE",
+        "STRING_SELECTION_CHANGE"
+      ]
+    }
+  ]
+}
