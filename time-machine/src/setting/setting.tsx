@@ -274,6 +274,8 @@ export default class Setting extends React.PureComponent<SettingProps, State> {
     const dateSize = Number(this.get('brandDateSize')) || 30
     const radius = Number(this.get('brandRadius')); const rad = isFinite(radius) && radius >= 0 ? radius : 8
     const logo = String(this.get('brandLogo') || '')
+    // the preview only shows a plain https address: no quotes, angle brackets, spaces or other markup characters
+    const previewLogo = ((): string => { const clean = logo.replace(/[<>"'&\s]/g, ''); return /^https:\/\/[\w./%~:-]+$/i.test(clean) ? clean : '' })()
     const logoH = Number(this.get('brandLogoHeight')) || 32
     // warnings only when both sides are the builder's; against the theme they would mislead
     const bgSet = !!cleanColor(String(this.get('brandBackground') || '')); const txSet = !!cleanColor(String(this.get('brandText') || '')); const muSet = !!cleanColor(String(this.get('brandMuted') || '')); const acSet = !!cleanColor(String(this.get('brandAccent') || ''))
@@ -312,7 +314,7 @@ export default class Setting extends React.PureComponent<SettingProps, State> {
             <span style={{ fontSize: Math.min(dateSize, 40), fontWeight: 700 }}>1994</span>
             <span style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
               <span style={{ color: mu, fontSize: 12 }}>{m.brandPreviewChapter}</span>
-              {/^https:\/\//i.test(logo) && <img src={logo} alt='' style={{ height: Math.min(logoH, 40), maxWidth: 120, objectFit: 'contain' }} />}
+              {previewLogo && <img src={previewLogo} alt='' style={{ height: Math.min(logoH, 40), maxWidth: 120, objectFit: 'contain' }} />}
             </span>
           </div>
           <div style={{ fontWeight: 600, marginTop: 4 }}>{m.brandPreviewTitle}</div>

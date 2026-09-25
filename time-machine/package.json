@@ -1,6 +1,6 @@
 {
   "name": "time-machine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Experience Builder widget: one date slider that filters every dated layer in the map to a date or range, with year snapshots and a side-by-side compare, no time-enabled services required.",
   "keywords": [
     "exb-widget",

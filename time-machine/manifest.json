@@ -2,7 +2,7 @@
   "name": "time-machine",
   "label": "Time Machine",
   "type": "widget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "exbVersion": "1.21.0",
   "author": "Brian McLeer, City of Grand Junction",
   "description": "One date slider that drives every dated layer in the map. Feature layers, hosted layers and map image sublayers with a date field are filtered client side to the chosen date or range, group layers of yearly snapshots switch to the matching year, and Compare mode shows two dates side by side behind a divider. Presentation mode puts a large date banner with story chapters on the map. No time-enabled services needed.",

@@ -2,6 +2,11 @@
 
 All notable changes to the Time Machine widget. Newest first. Every release bumps `manifest.json` and `package.json` together.
 
+## 1.0.1 (2026-09-25)
+
+Fixed
+- CodeQL findings from the first scan: the presentation look preview only shows a logo address with no markup characters; the end date field name pattern lost a stray anchor (`to_date` and `todate` still match); the test transpiler reads directory entries with their types instead of a separate stat call.
+
 ## 1.0.0 (2026-09-25)
 
 First public release. Internal builds 1.1 to 1.7 (September 2026) are folded into this version; their notes are kept below for reference.

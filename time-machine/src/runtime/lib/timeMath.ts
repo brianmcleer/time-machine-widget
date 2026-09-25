@@ -394,7 +394,7 @@ export function readDateFromRecord (feature: any, field: string | null): { start
     if (isFinite(ms) && ms > Date.UTC(1800, 0, 1) && ms < Date.UTC(2200, 0, 1)) hits.push({ name: k.toLowerCase(), ms })
   }
   if (!hits.length) return { start: NaN, end: NaN }
-  const endHit = hits.find(h => /end|expir|close|retire|remov|finish|to_date|todate$/.test(h.name))
+  const endHit = hits.find(h => /(end|expir|close|retire|remov|finish|to_?date)/.test(h.name))
   const startHit = hits.find(h => h !== endHit) || hits[0]
   return { start: startHit.ms, end: endHit && endHit !== startHit ? endHit.ms : NaN }
 }

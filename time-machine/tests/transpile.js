@@ -3,9 +3,10 @@ const ts = require('typescript'), fs = require('fs'), path = require('path')
 const root = path.join(__dirname, '..', 'src'), out = path.join(__dirname, 'build')
 let errs = 0
 function walk (d) {
-  for (const f of fs.readdirSync(d)) {
+  for (const ent of fs.readdirSync(d, { withFileTypes: true })) {
+    const f = ent.name
     const p = path.join(d, f)
-    if (fs.statSync(p).isDirectory()) walk(p)
+    if (ent.isDirectory()) walk(p)
     else if (/\.tsx?$/.test(f) && !/\.d\.ts$/.test(f)) {
       const src = fs.readFileSync(p, 'utf8')
       const r = ts.transpileModule(src, { fileName: p, reportDiagnostics: true, compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2019, jsx: ts.JsxEmit.ReactJSX, jsxImportSource: '@emotion/react', esModuleInterop: true } })
