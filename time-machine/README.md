@@ -119,6 +119,8 @@ The widget carries the GIS Division's shared `beacon.ts` module. On page load it
 
 Issues and pull requests: https://github.com/brianmcleer/time-machine-widget
 
+Esri Community post (discussion and downloads): https://community.esri.com/en/discussion/1721122/time-machine-widget
+
 ## License
 
 Apache-2.0. Copyright City of Grand Junction, CO.

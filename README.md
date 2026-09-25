@@ -60,6 +60,10 @@ Version tags must increase and never repeat. Bug fix: v1.0.1. New feature: v1.1.
 
 For the Esri Community post, upload the zip from the GitHub release (never a right-click zip of the repo folder, which would put the shims back).
 
+## Esri Community
+
+Discussion, questions and the attached download: https://community.esri.com/en/discussion/1721122/time-machine-widget
+
 ## License
 
 Apache-2.0. See the LICENSE file.
