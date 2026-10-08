@@ -1929,7 +1929,7 @@ const Widget: React.FC<Props> = (props) => {
                             <Checkbox checked={x.enabled} onChange={(_e: any, checked: boolean) => { toggleTarget(x.key, !!checked) }} aria-label={x.title} />
                             <span className='tm-lt'>
                               <span className='tm-ln' title={x.title}>{x.title}{cfg.showCounts !== false && x.enabled && x.kind === 'layer' && typeof counts[x.key] === 'number' ? <span className='tm-dim'> ({t('countLabel', { n: String(counts[x.key]) })})</span> : null}</span>
-                              <span className='tm-dim' title={String((x.target && x.target.definitionExpression) || '')}>{x.pick.end ? t('layerSpanPlain', { start: alias(x.pick.start), end: alias(x.pick.end) }) : t('layerUses', { field: alias(x.pick.start) })}{x.pick.startDateOnly ? ' (date only)' : ''}</span>
+                              <span className='tm-dim' title={String((x.target && x.target.definitionExpression) || '')}>{x.pick.end ? t('layerSpanPlain', { start: alias(x.pick.start), end: alias(x.pick.end) }) : t('layerUses', { field: alias(x.pick.start) })}{x.pick.startDateOnly ? t('dateOnly') : ''}</span>
                             </span>
                           </label>
                           {choice && (
