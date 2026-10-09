@@ -231,14 +231,14 @@ System.register([], function (e) {
         ieCopy: "Copy XML",
         ieCopied: "Copiado.",
         ieCopyFail: "Could not copy. Use Download instead.",
-        ieImportLabel: "XML to import",
+        ieImportLabel: "XML para importar",
         ieImportFile: "Escolher arquivo...",
         ieImport: "Importar",
         ieImportHint: "Paste configuration XML or choose a file, then Import. This replaces all current settings except the map.",
-        ieImported: "Configuration imported. Save the app to apply it.",
+        ieImported: "Configuração importada. Guarde o aplicativo para aplicá-lo.",
         ieBad: "This is not a Time Machine configuration.",
         ieEmpty: "Nothing to import.",
-        ieReadFail: "Could not read that file."
+        ieReadFail: "Não consegui ler esse arquivo."
       })
     }
   }

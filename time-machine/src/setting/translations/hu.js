@@ -28,7 +28,7 @@ System.register([], function (e) {
         maxYear: "Latest year",
         yearWindowHint: "Dates outside these years count as placeholders (2999, 9999, 1899) and do not stretch the slider. Empty means 1800 to next year.",
         badDate: "Use yyyy-mm-dd.",
-        secPerformance: "Performance",
+        secPerformance: "Teljesítmény",
         clientSide: "Work in the browser (client side)",
         clientSideHint: "Reads the dates of each feature layer once when the widget opens. The range, the bars, the counts and the change glow then need no requests, and the map filters on the layer view instead of the server.",
         clientMaxFeatures: "Largest layer to read into the browser",
@@ -231,14 +231,14 @@ System.register([], function (e) {
         ieCopy: "Copy XML",
         ieCopied: "Másolt.",
         ieCopyFail: "Could not copy. Use Download instead.",
-        ieImportLabel: "XML to import",
+        ieImportLabel: "XML importálásra",
         ieImportFile: "Fájl választása...",
         ieImport: "Importálás",
         ieImportHint: "Paste configuration XML or choose a file, then Import. This replaces all current settings except the map.",
-        ieImported: "Configuration imported. Save the app to apply it.",
+        ieImported: "Behozott konfiguráció. Mentse az alkalmazást alkalmazni.",
         ieBad: "This is not a Time Machine configuration.",
         ieEmpty: "Nothing to import.",
-        ieReadFail: "Could not read that file."
+        ieReadFail: "Nem sikerült elolvasni azt a fájlt."
       })
     }
   }

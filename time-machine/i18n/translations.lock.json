@@ -347,32 +347,94 @@
       },
       "locales": {
         "ar": {
-          "file": "8cb006651420",
+          "file": "f240f7ce1245",
           "counts": {
             "esri": 45,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "موقع الفرد",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "لا شيء في الدليل يطابق تلك الكلمة جرّبْ آخر، أَو يَفْتحُ الأقسامَ أعلاه.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "افتح الدليل",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "ابدأ هنا: ثلاث خطوات",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "إذا كان هناك شيء ما يبدو خاطئا",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "من الجيد معرفة",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "bg": {
-          "file": "324facad3594",
+          "file": "18aea56faa2c",
           "counts": {
             "esri": 45,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Разделителна позиция",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Нищо в ръководството не съвпада с тази дума. Опитайте друг, или отвори секциите по-горе.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Отвори гидът.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Започнете от тук: три стъпки",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Ако нещо не е наред",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Добре е да го знам.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "bs": {
           "file": "bd2bd2bd6977",
@@ -389,144 +451,454 @@
           "entries": {}
         },
         "ca": {
-          "file": "7690e4dba35a",
+          "file": "a92ecb716e10",
           "counts": {
             "esri": 43,
             "esri-check": 4,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Posició de separació",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Res en la guia coincideix amb aquesta paraula. Proveu-ne una altra, o obriu les seccions de dalt.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Obre la guia.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Comença aquí: tres passes",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Si alguna cosa sembla malament",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Bo saber-ho",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "cs": {
-          "file": "a69b027aacfc",
+          "file": "ca9a72516e15",
           "counts": {
             "esri": 41,
             "esri-check": 6,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Poloha děliče",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Nic v průvodci neodpovídá tomu slovu. Zkuste jiný, nebo otevřete sekce výše.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Otevři průvodce.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Začněte zde: tři kroky",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Pokud něco vypadá špatně",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Dobré vědět.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "da": {
-          "file": "5002043f5245",
+          "file": "ca1aeb5e7512",
           "counts": {
             "esri": 46,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Dividerposition",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Intet i guiden matcher det ord. Prøv en anden, eller åbn afsnittene ovenfor.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Åbn guiden.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Start her: tre trin",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Hvis noget ser forkert ud",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Godt at vide",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "de": {
-          "file": "64cf7528709d",
+          "file": "aec81a0ec65a",
           "counts": {
             "esri": 45,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Teilerposition",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Nichts im Guide passt zu diesem Wort. Versuchen Sie es mit einem anderen oder öffnen Sie die obigen Abschnitte.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Öffne den Guide.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Beginnen Sie hier: drei Schritte",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Wenn etwas falsch aussieht",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Gut zu wissen",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "el": {
-          "file": "8cccbdade4b2",
+          "file": "9b27506cf310",
           "counts": {
             "esri": 43,
             "esri-check": 4,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Θέση μεριδιού",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Τίποτα στον οδηγό δεν ταιριάζει με αυτή τη λέξη. Δοκιμάστε ένα άλλο, ή ανοίξτε τα τμήματα παραπάνω.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Άνοιξε τον οδηγό.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Εκκίνηση εδώ: τρία βήματα",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Αν κάτι φαίνεται λάθος",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Χαίρομαι που το μαθαίνω.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "es": {
-          "file": "59e7b06afbe8",
+          "file": "d8ac8a7b66f4",
           "counts": {
             "esri": 44,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Posición de vídeo",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Nada en la guía coincide con esa palabra. Pruebe otro, o abra las secciones anteriores.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Abre el guía.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Empieza aquí: tres pasos",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Si algo se ve mal",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Es bueno saberlo.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "et": {
-          "file": "c2b99051d9f9",
+          "file": "75a182677930",
           "counts": {
             "esri": 43,
             "esri-check": 4,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Jagatav positsioon",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Mitte miski juhendis ei klapi selle sõnaga. Proovige teist või avage ülaltoodud lõigud.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Tee teejuht lahti.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Alusta siit: kolm sammu",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Kui midagi on valesti",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Hea teada",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "fi": {
-          "file": "8a0e829ea0f2",
+          "file": "5c2080d2b9f2",
           "counts": {
             "esri": 42,
             "esri-check": 5,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Jakaja-asema",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Mikään oppaassa ei vastaa tuota sanaa. Kokeile toista, tai avaa kohdat yllä.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Avaa opas.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Aloita tästä: kolme vaihetta",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Jos jokin näyttää väärältä.",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Hyvä tietää",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "fr": {
-          "file": "3ebc7b44af22",
+          "file": "a290762cb436",
           "counts": {
             "esri": 47,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Position du diviseur",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Rien dans le guide ne correspond à ce mot. Essayez un autre, ou ouvrez les sections ci-dessus.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Ouvrez le guide.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Commencez ici: trois étapes",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Si quelque chose ne va pas",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Bon à savoir",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "he": {
-          "file": "71bb5bbc95d6",
+          "file": "60b3f0f6f4e3",
           "counts": {
             "esri": 45,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "מיקום Divider",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "שום דבר במדריך לא מתאים למילה הזאת. נסה עוד, או לפתוח את החלקים לעיל.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "פתח את המדריך",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "התחל כאן: שלושה צעדים",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "אם משהו נראה לא בסדר",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "טוב לדעת",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "hr": {
           "file": "bd2bd2bd6977",
@@ -543,228 +915,724 @@
           "entries": {}
         },
         "hu": {
-          "file": "608402100c54",
+          "file": "402d9d8707b5",
           "counts": {
             "esri": 43,
             "esri-check": 4,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Osztás helye",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "A kalauzban semmi sem egyezik ezzel a szóval. Próbálja meg egy másik, vagy nyissa ki a fenti szakaszok.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Nyisd ki az útmutatót.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Kezdjük itt: három lépés",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Ha valami nem stimmel",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Jó tudni.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "id": {
-          "file": "c88f8e66b615",
+          "file": "abe75fa5d3f5",
           "counts": {
             "esri": 41,
             "esri-check": 6,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Posisi pembagian",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Tidak ada dalam panduan cocok kata itu. Coba yang lain, atau buka bagian di atas.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Buka panduannya.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Mulai dari sini: tiga langkah",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Jika ada sesuatu yang salah",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Baik untuk mengetahui",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "it": {
-          "file": "64c04c49062e",
+          "file": "8cd40187d2b0",
           "counts": {
             "esri": 46,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Posizione divisoria",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Niente nella guida corrisponde a quella parola. Prova un altro, o apri le sezioni sopra.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Apri la guida.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Inizia qui: tre passi",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Se qualcosa sembra sbagliato",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Buono a sapersi",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "ja": {
-          "file": "4525a0b21b6e",
+          "file": "e297ed95506c",
           "counts": {
             "esri": 45,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "ダイダーの位置",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "ガイドがその単語と一致するわけではありません。 別のセクションを試し、または上記のセクションを開きます。",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "ガイドを開きます。",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "ここから: 3 つのステップ",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "何かが間違っている",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "よく知る",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "ko": {
-          "file": "279b94835200",
+          "file": "9ffa3a57146e",
           "counts": {
             "esri": 45,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Divider 위치",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "가이드의 아무것도 그 단어 일치. 다른 시도, 또는 위의 섹션을 엽니 다.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "자주 묻는 질문",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "여기에 시작: 세 단계",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "뭔가 잘못되었는지",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "잘 알고",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "lt": {
-          "file": "a453d566eb96",
+          "file": "12cda205fa34",
           "counts": {
             "esri": 41,
             "esri-check": 6,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Dividendų pozicija",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Vadove nėra nieko, kas atitiktų šį žodį. Pabandykite kitą, arba atidaryti skyrių aukščiau.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Atidaryk gidą.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Pradėti čia: trys žingsniai",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Jei kas nors atrodo blogai",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Gera žinoti",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "lv": {
-          "file": "cf1c2c084edc",
+          "file": "1324eb7b9206",
           "counts": {
             "esri": 44,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Dalītāja pozīcija",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Nekas ceļvedī neatbilst šim vārdam. Mēģiniet citu, vai atvērt sadaļas iepriekš.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Atveriet ceļvedi.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Sākt šeit: trīs soļi",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Ja kaut kas izskatās nepareizi",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Labi zināt",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "no": {
-          "file": "92d25733b46b",
+          "file": "32561982b032",
           "counts": {
             "esri": 46,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Splitterposisjon",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Ingenting i guiden stemmer med det ordet. Prøv en annen, eller åpne seksjonene ovenfor.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Åpne guiden.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Start her: 3 trinn",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Hvis noe ser galt ut",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Godt å vite",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "nl": {
-          "file": "2f204422a509",
+          "file": "a591ca57b0e8",
           "counts": {
             "esri": 44,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Dividerpositie",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Niets in de gids komt overeen met dat woord. Probeer een andere, of open de bovenstaande secties.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Open de gids.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Begin hier: drie stappen",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Als er iets mis lijkt.",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Goed om te weten",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "pl": {
-          "file": "7fb9ce60f52c",
+          "file": "7666819baf4e",
           "counts": {
             "esri": 42,
             "esri-check": 5,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Pozycja dzielnika",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Nic w przewodniku nie pasuje do tego słowa. Spróbuj innego, albo otwórz powyższe sekcje.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Otwórz przewodnik.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Zacznij tutaj: trzy kroki",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Jeśli coś wygląda źle",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Dobrze wiedzieć.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "pt-br": {
-          "file": "a291d8c83b4a",
+          "file": "021e34f8a6cb",
           "counts": {
             "esri": 46,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Posição do divisor",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Nada no guia combina com essa palavra. Tente outro, ou abra as seções acima.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Abra o guia.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Comece aqui: três passos",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Se algo parecer errado",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Bom saber.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "pt-pt": {
-          "file": "2998ffba3848",
+          "file": "c08bc41d9e40",
           "counts": {
             "esri": 44,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Posição do separador",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Nada no guia corresponde a essa palavra. Tente outro, ou abra as seções acima.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Abra o guia.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Comece aqui: três passos",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Se algo parecer errado",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "É bom saber.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "ro": {
-          "file": "646104dd28e2",
+          "file": "d868963d3db5",
           "counts": {
             "esri": 42,
             "esri-check": 5,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Poziția divider",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Nimic din ghid nu se potriveşte cu acest cuvânt. Încearcă altul, sau deschide secţiunile de mai sus.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Deschide ghidul.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Începe aici: trei pași",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Dacă ceva nu arată bine",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "E bine de ştiut.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "ru": {
-          "file": "a3fcfe30f035",
+          "file": "1d488d538e80",
           "counts": {
             "esri": 40,
             "esri-check": 7,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Разделительная позиция",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Ничто в руководстве не соответствует этому слову. Попробуйте другой или откройте разделы выше.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Откройте проводник.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Начните здесь: три шага",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Если что-то выглядит неправильно",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Хорошо знать",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "sk": {
-          "file": "ec127ef41eca",
+          "file": "50826a95492e",
           "counts": {
             "esri": 41,
             "esri-check": 6,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Rozdeľovacia poloha",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Nič v sprievodcovi nezodpovedá tomu slovu. Skúste iné, alebo otvoriť časti vyššie.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Otvorte sprievodcu.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Začnite tu: tri kroky",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Ak niečo vyzerá zle",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Dobré vedieť",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "sl": {
-          "file": "0fa24e074351",
+          "file": "a231fa0b8a8b",
           "counts": {
             "esri": 44,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Delniška pozicija",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Nič v vodiču se ne ujema s to besedo. Poskusite drugo ali pa odprite zgornje oddelke.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Odpri vodič.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Začnite tukaj: trije koraki",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Če je kaj narobe.",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Dobro je vedeti.",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "sr": {
           "file": "041487e5492d",
@@ -781,116 +1649,364 @@
           "entries": {}
         },
         "sv": {
-          "file": "58320f96eae5",
+          "file": "e4c8c6d2fa75",
           "counts": {
             "esri": 45,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Divider position",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Ingenting i guiden matchar det ordet. Prova en annan, eller öppna avsnitten ovan.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Öppna guiden.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Börja här: tre steg",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Om något ser fel",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Bra att veta",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "th": {
-          "file": "80f9d2901400",
+          "file": "6fe44fae7d8d",
           "counts": {
             "esri": 47,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "ตําแหน่งตัวหาร",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "ไม่มีอะไรในคู่มือที่ตรงกับคํานั้น ลอง เปิด อีก ส่วน หนึ่ง ข้าง บน.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "เปิดคู่มือ",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "เริ่มที่นี่: สามขั้นตอน",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "ถ้ามีอะไรผิดปกติ",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "ดีที่ได้รู้",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "tr": {
-          "file": "9d63ca47b47d",
+          "file": "57a90e070010",
           "counts": {
             "esri": 44,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Bölücü pozisyon",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Rehberde hiçbir şey bu kelimeyi maçları. Başka bir deneyin veya yukarıdaki bölümleri açın.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Rehberi açın.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Buraya başlayın: Üç adım",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Bir şey yanlış görünüyorsa",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "İyi bilmek",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "zh-cn": {
-          "file": "282908296b96",
+          "file": "ec4bf9391530",
           "counts": {
             "esri": 46,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "分块位置",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "指南中没有任何内容与这个词相符。 尝试另一个,或者打开上面的部分。",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "开导.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "从这里开始: 三步",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "如果有什么不对劲",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "很高兴知道",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "uk": {
-          "file": "5fa2fc047ed4",
+          "file": "f7adaea1cb94",
           "counts": {
             "esri": 44,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Позиція дайвайдера",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Ніщо в інструкції відповідає словом. Спробуйте ще одну або відкрийте розділи вище.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Відкрийте посібник.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Почати тут: три кроки",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Якщо щось виглядає неправильно",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Добре знати",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "vi": {
-          "file": "2bbc2ed408dc",
+          "file": "80c84c6a8442",
           "counts": {
             "esri": 46,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "Vị trí chia",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "Không có gì phù hợp với từ đó. Thử cái khác, hoặc mở phần trên.",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "Mở sách hướng dẫn ra.",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "Bắt đầu ở đây: ba bước",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "Nếu có gì không ổn",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "Rất vui được biết",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "zh-hk": {
-          "file": "2e8d64868ba0",
+          "file": "b95a7adf4c13",
           "counts": {
             "esri": 46,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "分割符位置",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "向导裡沒有什麼能符合這個詞的 再試一次,或者打開上面的區域",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "打開向导",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "從這裡開始: 三步",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "如果有什麼不對勁",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "很高興知道",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         },
         "zh-tw": {
-          "file": "00881636ae20",
+          "file": "800d1a67e659",
           "counts": {
             "esri": 45,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 6,
             "stale": 0,
-            "missing": 291
+            "missing": 285
           },
-          "entries": {}
+          "entries": {
+            "dividerLabel": {
+              "t": "分割符位置",
+              "src": "machine",
+              "h": "b8a8c9bd17f3"
+            },
+            "helpNoMatches": {
+              "t": "向导裡沒有什麼能符合這個詞的 再試一次,或者打開上面的區域",
+              "src": "machine",
+              "h": "3fe179f75330"
+            },
+            "firstRunHelpLink": {
+              "t": "打開向导",
+              "src": "machine",
+              "h": "2447dd6134ea"
+            },
+            "helpStartTitle": {
+              "t": "從這裡開始: 三步",
+              "src": "machine",
+              "h": "789320b4831d"
+            },
+            "helpTroubleTitle": {
+              "t": "如果有什麼不對勁",
+              "src": "machine",
+              "h": "6f7fec3ff1e0"
+            },
+            "helpTipsTitle": {
+              "t": "很高興知道",
+              "src": "machine",
+              "h": "79fc372dc790"
+            }
+          }
         }
       }
     },
@@ -1137,32 +2253,74 @@
       },
       "locales": {
         "ar": {
-          "file": "9a2ef1f31435",
+          "file": "533e0ca807d7",
           "counts": {
             "esri": 32,
             "esri-check": 5,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "الأداء",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML to import",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "المصادرة المستوردة احتفظ بالتطبيق لتطبيقه",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "لم أستطع قراءة ذلك الملف",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "bg": {
-          "file": "d6f0fd57ad08",
+          "file": "d142f39e7210",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Изпълнение",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML за внос",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Конфигурация внесена. Запишете приложението, за да го приложите.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Файлът не може да бъде прочетен.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "bs": {
           "file": "41214bd7b1e2",
@@ -1179,144 +2337,354 @@
           "entries": {}
         },
         "ca": {
-          "file": "64adcb580ad2",
+          "file": "28f72aaa308a",
           "counts": {
             "esri": 35,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Rendiment",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML a importar",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "S' ha importat la configuració. Desa l' aplicació per aplicar- la.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "No s' ha pogut llegir aquest fitxer.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "cs": {
-          "file": "628cf4b75d78",
+          "file": "895c8d14ed72",
           "counts": {
             "esri": 35,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Výkonnost",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML pro import",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Konfigurace importována. Uložte aplikaci pro aplikaci.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Nelze přečíst tento soubor.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "da": {
-          "file": "640f1a479964",
+          "file": "820b17c00132",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Resultater",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML at importere",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Konfiguration importeret. Gem appen til at anvende den.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Kunne ikke læse den fil.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "de": {
-          "file": "f25e44136c29",
+          "file": "70392615f366",
           "counts": {
             "esri": 35,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Leistung",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML zum Importieren",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Konfiguration importiert. Speichern Sie die App, um sie anzuwenden.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Konnte diese Akte nicht lesen.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "el": {
-          "file": "ed5e3363c976",
+          "file": "edb20051ab4d",
           "counts": {
             "esri": 34,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Επιδόσεις",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML για εισαγωγή",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Εισαγωγή ρυθμίσεων. Αποθήκευση της εφαρμογής για εφαρμογή.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Αδυναμία ανάγνωσης του αρχείου.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "es": {
-          "file": "7d1ace4d4f5d",
+          "file": "8a23650f3eb8",
           "counts": {
             "esri": 33,
             "esri-check": 4,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Ejecución",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML para importar",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Configuración importada. Guarda la aplicación para aplicarla.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "No podía leer ese archivo.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "et": {
-          "file": "4f44ff664042",
+          "file": "7feea0ee3475",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Performance",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML importimiseks",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Seadistamine imporditud. Salvesta rakendus selle rakendamiseks.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Faili lugemine nurjus.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "fi": {
-          "file": "32d7144cb74a",
+          "file": "7b5439c32958",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Suorituskyky",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML tuotavaksi",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Asetukset tuotu. Tallenna sovellus sovelluksen käyttöön.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Tiedostoa ei voitu lukea.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "fr": {
-          "file": "bc86f06719a1",
+          "file": "196a3d9cae1a",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Rendement",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML à importer",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Configuration importée. Enregistrer l'application pour l'appliquer.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Impossible de lire ce fichier.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "he": {
-          "file": "b678d5c643a4",
+          "file": "4cfebfd5801e",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "ביצועי ביצועים",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML לייבוא",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "סודיות מיובאת. שמור את האפליקציה כדי ליישם אותה.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "לא יכול לקרוא את הקובץ הזה.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "hr": {
           "file": "41214bd7b1e2",
@@ -1333,228 +2701,534 @@
           "entries": {}
         },
         "hu": {
-          "file": "9b326ed60f2b",
+          "file": "1c8906913007",
           "counts": {
             "esri": 35,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Teljesítmény",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML importálásra",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Behozott konfiguráció. Mentse az alkalmazást alkalmazni.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Nem sikerült elolvasni azt a fájlt.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "id": {
-          "file": "e33b4e9b1cc2",
+          "file": "84ec852caad2",
           "counts": {
             "esri": 35,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Penampilan",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML untuk diimpor",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Konfigurasi diimpor. Simpan aplikasi untuk menerapkannya.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Tak bisa membaca berkas itu.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "it": {
-          "file": "043ebbd570e4",
+          "file": "d46dbd0db8b9",
           "counts": {
             "esri": 35,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Prestazioni",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML per importare",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Configurazione importata. Salvare l'applicazione.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Non ho potuto leggere quel file.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "ja": {
-          "file": "3e615ad9febe",
+          "file": "be53fa9d15a5",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "パフォーマンス",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "インポートするXML",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "構成は輸入しました。 アプリを保存して適用します。",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "ファイルが読み込まれない。",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "ko": {
-          "file": "c63cba574bbf",
+          "file": "dbe4f65ae4d0",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "- 연혁",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML 가져오기",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "수입된 윤곽. 앱을 저장할 수 있습니다.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "그 파일을 읽을 수 없습니다.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "lt": {
-          "file": "bb1326266994",
+          "file": "cc276e9f0747",
           "counts": {
             "esri": 35,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Veikla",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "Importuoti XML",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Konfigūracija importuota. Išsaugokite programą, kad ją pritaikytumėte.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Nepavyko perskaityti šio failo.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "lv": {
-          "file": "f23841b63bd9",
+          "file": "0b3d8c400c84",
           "counts": {
             "esri": 32,
             "esri-check": 5,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Darbības rezultāti",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "Importējamā XML",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Konfigurācija importēta. Saglabāt lietotni, lai to piemērotu.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Neizdevās nolasīt šo failu.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "no": {
-          "file": "2336bf794a67",
+          "file": "fa2e75870ab0",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Ytelse",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML som skal importeres",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Konfigurasjon importert. Lagre appen for å bruke den.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Kunne ikke lese den filen.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "nl": {
-          "file": "94101218fd13",
+          "file": "761a61864aea",
           "counts": {
             "esri": 35,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Prestaties",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML om te importeren",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Configuratie geïmporteerd. Sla de app op om het toe te passen.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Kon dat bestand niet lezen.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "pl": {
-          "file": "8a4678bf6fe7",
+          "file": "c8b8c50762ff",
           "counts": {
             "esri": 35,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Wydajność",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML do importu",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Konfiguracja importowana. Zapisz aplikację do zastosowania.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Nie można odczytać tego pliku.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "pt-br": {
-          "file": "0cd19b2d7038",
+          "file": "e3178ac15ffe",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Performance",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML para importar",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Configuração importada. Guarde o aplicativo para aplicá-lo.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Não consegui ler esse arquivo.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "pt-pt": {
-          "file": "2d3395d480db",
+          "file": "03934f9116b9",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Desempenho",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML a importar",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "A configuração foi importada. Salve o aplicativo para aplicá-lo.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Não foi possível ler esse arquivo.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "ro": {
-          "file": "33d1daff94cb",
+          "file": "29089c23a0fa",
           "counts": {
             "esri": 35,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Performanță",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML de importat",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Configurare importată. Salvează aplicația pentru a o aplica.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Nu am putut citi acel dosar.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "ru": {
-          "file": "98bbd97765ed",
+          "file": "458efabba0ee",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Выступление",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML для импорта",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Конфигурация импортная. Сохраните приложение, чтобы применить его.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Я не мог прочитать этот файл.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "sk": {
-          "file": "4f8bd8abebeb",
+          "file": "e7a955bef077",
           "counts": {
             "esri": 32,
             "esri-check": 5,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 1,
             "stale": 0,
-            "missing": 199
+            "missing": 198
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Výkonnosť",
+              "src": "machine",
+              "h": "63c904559993"
+            }
+          }
         },
         "sl": {
-          "file": "2b317817c867",
+          "file": "0b0caaa0559a",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 1,
             "stale": 0,
-            "missing": 199
+            "missing": 198
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Uspešnost",
+              "src": "machine",
+              "h": "63c904559993"
+            }
+          }
         },
         "sr": {
           "file": "0ab99c0ca652",
@@ -1571,116 +3245,284 @@
           "entries": {}
         },
         "sv": {
-          "file": "b2c00cfe20b4",
+          "file": "6679ce190ef4",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Prestanda",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML importerar",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Konfiguration importerad. Spara appen för att tillämpa den.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Kunde inte läsa den filen.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "th": {
-          "file": "a0098f71332c",
+          "file": "41772260194b",
           "counts": {
             "esri": 30,
             "esri-check": 7,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "ประสิทธิภาพ",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML ที่จะนําเข้า",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "นําเข้าค่าปรับแต่ง เก็บแอพไว้ใช้",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "ไม่สามารถอ่านแฟ้มนี้ได้",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "tr": {
-          "file": "809d6233836e",
+          "file": "b7402a984d66",
           "counts": {
             "esri": 35,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans Performans",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML ithal etmek için",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Eklenme ithal edildi. Uygulamayı uygulamak için tasarruf edin.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Bu dosyayı okumayabilir.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "zh-cn": {
-          "file": "9d4a76f7ae78",
+          "file": "24d728efaa34",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "业绩",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "要导入的 XML",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "配置已导入 。 保存应用应用程序 。",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "无法读取该文件 。",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "uk": {
-          "file": "6edca1e12d8a",
+          "file": "3a4f2f7fd115",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Продуктивність",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML імпортувати",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Налаштування імпортованих. Заощаджуйте додаток, щоб застосувати його.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Не прочитайте цей файл.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "vi": {
-          "file": "1eb5889d4ddc",
+          "file": "914e82808bd0",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "Hiệu suất",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "XML cần nhập",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "Cấu hình đã nhập. Lưu ứng dụng vào đó.",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "Không thể đọc tập tin đó.",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "zh-hk": {
-          "file": "376b737733eb",
+          "file": "b8133c8094f1",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "性能",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "要匯入的 XML",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "配置已匯入 。 儲存應用程式以應用 。",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "無法讀取檔案 。",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         },
         "zh-tw": {
-          "file": "376b737733eb",
+          "file": "b8133c8094f1",
           "counts": {
             "esri": 36,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 4,
             "stale": 0,
-            "missing": 199
+            "missing": 195
           },
-          "entries": {}
+          "entries": {
+            "secPerformance": {
+              "t": "性能",
+              "src": "machine",
+              "h": "63c904559993"
+            },
+            "ieImportLabel": {
+              "t": "要匯入的 XML",
+              "src": "machine",
+              "h": "565c68e27a4b"
+            },
+            "ieImported": {
+              "t": "配置已匯入 。 儲存應用程式以應用 。",
+              "src": "machine",
+              "h": "85413540a9b9"
+            },
+            "ieReadFail": {
+              "t": "無法讀取檔案 。",
+              "src": "machine",
+              "h": "ec36199c2baf"
+            }
+          }
         }
       }
     }
