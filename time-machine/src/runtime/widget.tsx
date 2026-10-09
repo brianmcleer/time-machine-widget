@@ -47,6 +47,18 @@ import { resolveBrand, brandTokens } from './lib/brand'
 import { loadDateCache, cacheRange, cacheCount, cacheActivity, cacheIdsBetween, type DateCache } from './lib/dateCache'
 import type { Chapter } from '../config'
 import { createBanner, type Banner } from './lib/presentBanner'
+import __i18nDefaults from './translations/default'
+import { __setIntl } from './i18n-t'
+let __i18nIntl: any = null
+/** Module translator: app language via the widget intl, English from default.ts, {name} values filled. */
+const __t = (id: string, values?: { [key: string]: any }): string => {
+  const msg: string = (__i18nDefaults as any)[id] ?? id
+  if (__i18nIntl && typeof __i18nIntl.formatMessage === 'function') {
+    try { return __i18nIntl.formatMessage({ id, defaultMessage: msg }, values) } catch (e) { }
+  }
+  return msg.replace(/\{(\w+)\}/g, (m: string, k: string) => (values && values[k] != null ? String(values[k]) : m))
+}
+
 
 const widgetIcon = require('./assets/icons/icon.svg')
 const { useState, useEffect, useRef, useCallback, useMemo } = React
@@ -78,6 +90,8 @@ const fitRangeSafe = (ranges: Array<{ start: number, end: number }>, win: YearWi
 const SPEEDS: Array<{ key: string, factor: number }> = [{ key: 'speedSlowest', factor: 4 }, { key: 'speedSlow', factor: 2 }, { key: 'speedNormal', factor: 1 }, { key: 'speedFast', factor: 0.4 }, { key: 'speedFastest', factor: 0.15 }]
 
 const Widget: React.FC<Props> = (props) => {
+  __setIntl((props as any).intl)
+  __i18nIntl = (props as any).intl
   const cfg = useMemo(() => readConfig(props.config), [props.config])
   // the slider step: the builder's default, changed by the user when the builder allows it
   const [gran, setGran] = useState<Granularity>(cfg.granularity || 'day')
@@ -1990,9 +2004,9 @@ class Boundary extends React.Component<{ children: any }, { error: string | null
     if (this.state.error) {
       return (
         <div style={{ padding: 12, fontSize: 13 }} role='alert'>
-          <div style={{ fontWeight: 600, marginBottom: 6 }}>Time Machine hit an error</div>
+          <div style={{ fontWeight: 600, marginBottom: 6 }}>{__t("uiTimeMachineHitAnError")}</div>
           <div style={{ fontFamily: 'monospace', whiteSpace: 'pre-wrap', wordBreak: 'break-word', marginBottom: 8 }}>{this.state.error}</div>
-          <Button size='sm' type='primary' onClick={() => { this.setState({ error: null }) }}>Try again</Button>
+          <Button size='sm' type='primary' onClick={() => { this.setState({ error: null }) }}>{__t("uiTryAgain")}</Button>
         </div>
       )
     }

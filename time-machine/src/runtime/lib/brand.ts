@@ -6,6 +6,7 @@
  * falls back to the app theme (the tokens). Pure: config in, a Brand out.
  */
 import type { Tokens } from '../theme'
+import { __t } from '../i18n-t'
 
 export interface BrandConfig {
   brandBackground?: string
@@ -40,14 +41,14 @@ export interface Brand {
 }
 
 export const FONT_CHOICES: Array<{ key: string, label: string, stack: string }> = [
-  { key: 'system', label: 'App font', stack: '' },
-  { key: 'arial', label: 'Arial', stack: 'Arial, Helvetica, sans-serif' },
-  { key: 'segoe', label: 'Segoe UI', stack: '"Segoe UI", Tahoma, sans-serif' },
-  { key: 'verdana', label: 'Verdana', stack: 'Verdana, Geneva, sans-serif' },
-  { key: 'trebuchet', label: 'Trebuchet MS', stack: '"Trebuchet MS", Helvetica, sans-serif' },
-  { key: 'georgia', label: 'Georgia', stack: 'Georgia, "Times New Roman", serif' },
-  { key: 'times', label: 'Times New Roman', stack: '"Times New Roman", Times, serif' },
-  { key: 'mono', label: 'Monospace', stack: 'Consolas, "Courier New", monospace' }
+  { key: 'system', label: __t("appFont"), stack: '' },
+  { key: 'arial', label: __t("arial"), stack: 'Arial, Helvetica, sans-serif' },
+  { key: 'segoe', label: __t("segoeUi"), stack: '"Segoe UI", Tahoma, sans-serif' },
+  { key: 'verdana', label: __t("verdana"), stack: 'Verdana, Geneva, sans-serif' },
+  { key: 'trebuchet', label: __t("trebuchetMs"), stack: '"Trebuchet MS", Helvetica, sans-serif' },
+  { key: 'georgia', label: __t("georgia"), stack: 'Georgia, "Times New Roman", serif' },
+  { key: 'times', label: __t("timesNewRoman"), stack: '"Times New Roman", Times, serif' },
+  { key: 'mono', label: __t("monospace"), stack: 'Consolas, "Courier New", monospace' }
 ]
 
 /** A CSS color the browser will accept: hex, rgb(), hsl() or a named color; nothing else. */

@@ -74,7 +74,7 @@ System.register([], function (e) {
         rules: "Layer rules",
         rulesHint: "Override the automatic choice for a layer. Match by layer id (map image sublayers are \"<layer id>::<sublayer id>\") or, with the id empty, by title.",
         ruleAdd: "Add rule",
-        ruleRemove: "Remove rule",
+        ruleRemove: "제거 규칙",
         ruleLayerId: "Layer id",
         ruleTitle: "제목",
         ruleMode: "모드",

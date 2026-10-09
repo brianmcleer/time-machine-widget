@@ -365,5 +365,17 @@ export default {
   helpTipsTitle: 'Good to know',
   helpTips1: 'If the app has Print Advanced, set a date here first: it prints whatever the map shows, so the printout carries the date.',
   helpTips2: 'In the date box you can type the whole date with the keyboard, day, month then year, and press Enter.',
-  dateOnly: '(date only)'
+  dateOnly: '(date only)',
+  uiTimeMachineHitAnError: 'Time Machine hit an error',
+  uiTryAgain: 'Try again',
+  appFont: 'App font',
+  arial: 'Arial',
+  segoeUi: 'Segoe UI',
+  verdana: 'Verdana',
+  trebuchetMs: 'Trebuchet MS',
+  georgia: 'Georgia',
+  timesNewRoman: 'Times New Roman',
+  monospace: 'Monospace',
+  unknownError: 'unknown error',
+  unserializableError: 'unserializable error'
 }

@@ -74,7 +74,7 @@ System.register([], function (e) {
         rules: "Layer rules",
         rulesHint: "Override the automatic choice for a layer. Match by layer id (map image sublayers are \"<layer id>::<sublayer id>\") or, with the id empty, by title.",
         ruleAdd: "Add rule",
-        ruleRemove: "Remove rule",
+        ruleRemove: "Odstrani pravilo",
         ruleLayerId: "Layer id",
         ruleTitle: "Naslov",
         ruleMode: "Način",
@@ -231,14 +231,14 @@ System.register([], function (e) {
         ieCopy: "Copy XML",
         ieCopied: "Kopirano.",
         ieCopyFail: "Could not copy. Use Download instead.",
-        ieImportLabel: "XML to import",
+        ieImportLabel: "XML za uvoz",
         ieImportFile: "Izberi datoteko...",
         ieImport: "Uvozi",
         ieImportHint: "Paste configuration XML or choose a file, then Import. This replaces all current settings except the map.",
-        ieImported: "Configuration imported. Save the app to apply it.",
+        ieImported: "Uvožene nastavitve. Shrani aplikacijo, da jo uporabi.",
         ieBad: "This is not a Time Machine configuration.",
         ieEmpty: "Nothing to import.",
-        ieReadFail: "Could not read that file."
+        ieReadFail: "Ni moč prebrati datoteke."
       })
     }
   }
