@@ -41,14 +41,14 @@ export interface Brand {
 }
 
 export const FONT_CHOICES: Array<{ key: string, label: string, stack: string }> = [
-  { key: 'system', label: __t("appFont"), stack: '' },
-  { key: 'arial', label: __t("arial"), stack: 'Arial, Helvetica, sans-serif' },
-  { key: 'segoe', label: __t("segoeUi"), stack: '"Segoe UI", Tahoma, sans-serif' },
-  { key: 'verdana', label: __t("verdana"), stack: 'Verdana, Geneva, sans-serif' },
-  { key: 'trebuchet', label: __t("trebuchetMs"), stack: '"Trebuchet MS", Helvetica, sans-serif' },
-  { key: 'georgia', label: __t("georgia"), stack: 'Georgia, "Times New Roman", serif' },
-  { key: 'times', label: __t("timesNewRoman"), stack: '"Times New Roman", Times, serif' },
-  { key: 'mono', label: __t("monospace"), stack: 'Consolas, "Courier New", monospace' }
+  { key: 'system', get label () { return __t("appFont") }, stack: '' },
+  { key: 'arial', get label () { return __t("arial") }, stack: 'Arial, Helvetica, sans-serif' },
+  { key: 'segoe', get label () { return __t("segoeUi") }, stack: '"Segoe UI", Tahoma, sans-serif' },
+  { key: 'verdana', get label () { return __t("verdana") }, stack: 'Verdana, Geneva, sans-serif' },
+  { key: 'trebuchet', get label () { return __t("trebuchetMs") }, stack: '"Trebuchet MS", Helvetica, sans-serif' },
+  { key: 'georgia', get label () { return __t("georgia") }, stack: 'Georgia, "Times New Roman", serif' },
+  { key: 'times', get label () { return __t("timesNewRoman") }, stack: '"Times New Roman", Times, serif' },
+  { key: 'mono', get label () { return __t("monospace") }, stack: 'Consolas, "Courier New", monospace' }
 ]
 
 /** A CSS color the browser will accept: hex, rgb(), hsl() or a named color; nothing else. */

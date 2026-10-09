@@ -48,7 +48,7 @@ import { loadDateCache, cacheRange, cacheCount, cacheActivity, cacheIdsBetween, 
 import type { Chapter } from '../config'
 import { createBanner, type Banner } from './lib/presentBanner'
 import __i18nDefaults from './translations/default'
-import { __setIntl } from './i18n-t'
+import { __locale, __setIntl } from './i18n-t'
 let __i18nIntl: any = null
 /** Module translator: app language via the widget intl, English from default.ts, {name} values filled. */
 const __t = (id: string, values?: { [key: string]: any }): string => {
@@ -1328,7 +1328,7 @@ const Widget: React.FC<Props> = (props) => {
         await settled(view, 12000)
         const shot = await shootView(view, 1920, 85)
         const bar = activity ? activity.bars.find(b => c.ms >= indexToDate(domain.start, b.from, g) && c.ms < indexToDate(domain.start, b.to, g)) : null
-        slides.push({ index: c.index, date: formatDate(c.ms, g), title: String(ch.title || ''), text: String(ch.text || ''), notes: String(ch.notes || ''), image: shot.dataUrl, imageW: shot.w, imageH: shot.h, caption: bar && bar.n ? t('deckCaption', { n: bar.n.toLocaleString(), unit: t(activity!.unit === 'year' ? 'unitYear' : 'unitMonth') }) : undefined })
+        slides.push({ index: c.index, date: formatDate(c.ms, g), title: String(ch.title || ''), text: String(ch.text || ''), notes: String(ch.notes || ''), image: shot.dataUrl, imageW: shot.w, imageH: shot.h, caption: bar && bar.n ? t('deckCaption', { n: bar.n.toLocaleString(__locale()), unit: t(activity!.unit === 'year' ? 'unitYear' : 'unitMonth') }) : undefined })
       }
     } finally {
       restoreLayers(undo)
@@ -1415,9 +1415,9 @@ const Widget: React.FC<Props> = (props) => {
       const per = activity.perLayer.filter(l => l.counts.size).map(l => {
         let n = 0
         for (const b of activity.bars) if (b.from >= p.from && b.to <= p.to) n += l.counts.get(b.key) || 0
-        return n ? `${l.title}: ${n.toLocaleString()}` : ''
+        return n ? `${l.title}: ${n.toLocaleString(__locale())}` : ''
       }).filter(Boolean)
-      return { date: toIsoDate(ms), title: p.key, text: t('autoText', { n: p.n.toLocaleString(), period: p.key }), notes: per.join('\n') }
+      return { date: toIsoDate(ms), title: p.key, text: t('autoText', { n: p.n.toLocaleString(__locale()), period: p.key }), notes: per.join('\n') }
     })
     // one chapter per period, replacing earlier generated ones with the same title
     const keep = draft.filter(c => !made.some(m => m.title === c.title))
@@ -1685,7 +1685,7 @@ const Widget: React.FC<Props> = (props) => {
             <div className='tm-readout'>
               {mode === 'single' && (
                 <React.Fragment>
-                  <span className='tm-dim'>{t('asOf')}{totalCount !== null ? <span> · {t('totalCount', { n: totalCount.toLocaleString() })}</span> : null}</span>
+                  <span className='tm-dim'>{t('asOf')}{totalCount !== null ? <span> · {t('totalCount', { n: totalCount.toLocaleString(__locale()) })}</span> : null}</span>
                   <span className='tm-date'>{formatDate(dateA, g)}</span>
                 </React.Fragment>
               )}
@@ -1715,14 +1715,14 @@ const Widget: React.FC<Props> = (props) => {
                     <React.Fragment>
                       <div className='tm-ylabel' aria-hidden='true'>{t('activityAxis', { unit: unitName })}</div>
                       <div className='tm-chart' aria-hidden='true' title={t('activityHint', { unit: unitName })}>
-                        <span className='tm-y' style={{ top: 0 }}>{max.toLocaleString()}</span>
-                        <span className='tm-y' style={{ top: '50%' }}>{(max / 2 >= 10 ? Math.round(max / 2) : Math.round(max / 2 * 10) / 10).toLocaleString()}</span>
+                        <span className='tm-y' style={{ top: 0 }}>{max.toLocaleString(__locale())}</span>
+                        <span className='tm-y' style={{ top: '50%' }}>{(max / 2 >= 10 ? Math.round(max / 2) : Math.round(max / 2 * 10) / 10).toLocaleString(__locale())}</span>
                         <span className='tm-y' style={{ top: '100%' }}>0</span>
                         <div className='tm-grid-h' style={{ top: '50%' }} />
                         {ticks.map(i => <div className='tm-grid-v' key={i} style={{ left: `${pct(i)}%` }} />)}
                         <div className='tm-bars'>
                           {activity!.bars.filter(x => x.n > 0).map(x => (
-                            <i key={x.key} className={a >= x.from && a < x.to ? 'tm-here' : ''} title={`${x.key}: ${x.n.toLocaleString()}`}
+                            <i key={x.key} className={a >= x.from && a < x.to ? 'tm-here' : ''} title={`${x.key}: ${x.n.toLocaleString(__locale())}`}
                               style={{ left: `${pct(x.from)}%`, width: `${pct(x.to) - pct(x.from)}%`, height: `${Math.max(3, (x.n / max) * 100)}%` }} />
                           ))}
                         </div>
