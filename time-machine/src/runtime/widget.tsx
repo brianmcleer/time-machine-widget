@@ -91,10 +91,11 @@ const Widget: React.FC<Props> = (props) => {
   const [layerFilter, setLayerFilter] = useState('')
   const m: any = defaultMessages
   const t = useCallback((id: string, values?: Record<string, string>): string => {
+    const __intl: any = (props as any).intl; if (__intl && typeof __intl.formatMessage === "function") { try { return __intl.formatMessage({ id, defaultMessage: (defaultMessages as any)[id] ?? id }, values) } catch (e) { } }
     let s = String(m[id] ?? id)
     if (values) for (const k of Object.keys(values)) s = s.split(`{${k}}`).join(values[k])
     return s
-  }, [])
+  }, [(props as any).intl])
   const tokensLive = useTokens()
   // useTokens builds a new object each render; effects keyed on it would rerun every second while presenting
   const tokensKey = JSON.stringify(tokensLive)
