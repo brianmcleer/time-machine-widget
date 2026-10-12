@@ -3369,14 +3369,14 @@
           }
         },
         "bs": {
-          "file": "9497a3e8fa24",
+          "file": "b3c110df913c",
           "counts": {
-            "esri": 38,
+            "esri": 49,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 174,
+            "machine": 163,
             "stale": 0,
             "missing": 135
           },
@@ -3755,16 +3755,6 @@
               "t": "Kopiraj link na ovu aplikaciju koja se otvara na ovaj datum.",
               "src": "machine",
               "h": "a2cce1ca7ef3"
-            },
-            "linkCopied": {
-              "t": "Link kopiran.",
-              "src": "machine",
-              "h": "ed1ed2b68db5"
-            },
-            "linkCopyFail": {
-              "t": "Nisam mogao kopirati link.",
-              "src": "machine",
-              "h": "a9b3348f2fb0"
             },
             "countLabel": {
               "t": "{n} prikazano",
@@ -4181,41 +4171,6 @@
               "src": "machine",
               "h": "9c1b7dc93bab"
             },
-            "helpNoMatches": {
-              "t": "Ništa u vodiču ne odgovara toj riječi.",
-              "src": "machine",
-              "h": "3fe179f75330"
-            },
-            "firstRunTitle": {
-              "t": "Novi ovdje?",
-              "src": "machine",
-              "h": "b81f2e17e001"
-            },
-            "firstRunHelpLink": {
-              "t": "Otvori vodič.",
-              "src": "machine",
-              "h": "2447dd6134ea"
-            },
-            "firstRunDismiss": {
-              "t": "Otpust",
-              "src": "machine",
-              "h": "70afe9eff3f2"
-            },
-            "helpStartTitle": {
-              "t": "Počnite ovdje: tri koraka",
-              "src": "machine",
-              "h": "789320b4831d"
-            },
-            "helpTroubleTitle": {
-              "t": "Ako nešto nije u redu",
-              "src": "machine",
-              "h": "6f7fec3ff1e0"
-            },
-            "helpTipsTitle": {
-              "t": "Dobro je znati.",
-              "src": "machine",
-              "h": "79fc372dc790"
-            },
             "arial": {
               "t": "Arial",
               "src": "machine",
@@ -4240,16 +4195,6 @@
               "t": "Times New Roman",
               "src": "machine",
               "h": "5843c571558e"
-            },
-            "unknownError": {
-              "t": "nepoznata greška",
-              "src": "machine",
-              "h": "af6321ca7a8b"
-            },
-            "unserializableError": {
-              "t": "Neserijalizacijska greška",
-              "src": "machine",
-              "h": "76e73551597a"
             }
           }
         },
@@ -19379,14 +19324,14 @@
           }
         },
         "hr": {
-          "file": "247eabc71d75",
+          "file": "af437a60bb86",
           "counts": {
-            "esri": 38,
+            "esri": 49,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 309,
+            "machine": 298,
             "stale": 0,
             "missing": 0
           },
@@ -19775,16 +19720,6 @@
               "t": "Kopiraj link na ovu aplikaciju koja se otvara na ovaj datum.",
               "src": "machine",
               "h": "a2cce1ca7ef3"
-            },
-            "linkCopied": {
-              "t": "Link kopiran.",
-              "src": "machine",
-              "h": "ed1ed2b68db5"
-            },
-            "linkCopyFail": {
-              "t": "Ne mogu kopirati link.",
-              "src": "machine",
-              "h": "a9b3348f2fb0"
             },
             "countLabel": {
               "t": "{n} prikazano",
@@ -20416,35 +20351,10 @@
               "src": "machine",
               "h": "029039cfab21"
             },
-            "helpNoMatches": {
-              "t": "Ništa u vodiču ne odgovara toj riječi. Pokušajte drugi, ili otvorite dijelove iznad.",
-              "src": "machine",
-              "h": "3fe179f75330"
-            },
-            "firstRunTitle": {
-              "t": "Novi ovdje?",
-              "src": "machine",
-              "h": "b81f2e17e001"
-            },
             "firstRunBody": {
               "t": "Povucite klizač na datum i gledati svaki datirani sloj na karti slijedite ga.",
               "src": "machine",
               "h": "2ba7115d50af"
-            },
-            "firstRunHelpLink": {
-              "t": "Otvori vodič.",
-              "src": "machine",
-              "h": "2447dd6134ea"
-            },
-            "firstRunDismiss": {
-              "t": "Otpust",
-              "src": "machine",
-              "h": "70afe9eff3f2"
-            },
-            "helpStartTitle": {
-              "t": "Počnite ovdje: tri koraka",
-              "src": "machine",
-              "h": "789320b4831d"
             },
             "helpStart1": {
               "t": "Povucite klizač, ili upišite datum u kutiji, na dan želite vidjeti.",
@@ -20791,11 +20701,6 @@
               "src": "machine",
               "h": "6d69cd86c9c7"
             },
-            "helpTroubleTitle": {
-              "t": "Ako nešto izgleda loše",
-              "src": "machine",
-              "h": "6f7fec3ff1e0"
-            },
             "helpTrouble1": {
               "t": "Sloj se ne mijenja: isključen je u mapi, nema polje datuma ili koristi drugi datum nego što ste očekivali. Uključite ga, provjerite Slojevi koji ne mogu pratiti klizač, zatim izaberite datum u popisu ispod klizača.",
               "src": "machine",
@@ -20855,11 +20760,6 @@
               "t": "Još uvijek zaglavi? Kontaktirajte GIS Division i spomenuti ime Vremeplov i ovu aplikaciju.",
               "src": "machine",
               "h": "9ba460d6d949"
-            },
-            "helpTipsTitle": {
-              "t": "Dobro je znati.",
-              "src": "machine",
-              "h": "79fc372dc790"
             },
             "helpTips1": {
               "t": "Ako aplikacija ima Print Advanced, prvo postavite datum ovdje: ona ispisuje sve što karta pokazuje, tako da ispis nosi datum.",
@@ -20925,16 +20825,6 @@
               "t": "Monospace",
               "src": "machine",
               "h": "216fcddff2f9"
-            },
-            "unknownError": {
-              "t": "nepoznata greška",
-              "src": "machine",
-              "h": "af6321ca7a8b"
-            },
-            "unserializableError": {
-              "t": "Neserijalizacijska greška",
-              "src": "machine",
-              "h": "76e73551597a"
             }
           }
         },
@@ -45104,14 +44994,14 @@
           }
         },
         "sr": {
-          "file": "6a980b19456a",
+          "file": "dbefe0363bf6",
           "counts": {
-            "esri": 38,
+            "esri": 49,
             "esri-check": 3,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 309,
+            "machine": 298,
             "stale": 0,
             "missing": 0
           },
@@ -45500,16 +45390,6 @@
               "t": "Kopiraj link na ovu aplikaciju koja se otvara na ovaj datum.",
               "src": "machine",
               "h": "a2cce1ca7ef3"
-            },
-            "linkCopied": {
-              "t": "Link kopiran.",
-              "src": "machine",
-              "h": "ed1ed2b68db5"
-            },
-            "linkCopyFail": {
-              "t": "Ne mogu da kopiram link.",
-              "src": "machine",
-              "h": "a9b3348f2fb0"
             },
             "countLabel": {
               "t": "{n} prikazano",
@@ -46141,35 +46021,10 @@
               "src": "machine",
               "h": "029039cfab21"
             },
-            "helpNoMatches": {
-              "t": "Ništa u vodièu ne odgovara toj reèi.",
-              "src": "machine",
-              "h": "3fe179f75330"
-            },
-            "firstRunTitle": {
-              "t": "Novi ovde?",
-              "src": "machine",
-              "h": "b81f2e17e001"
-            },
             "firstRunBody": {
               "t": "Odvuci klizaè na spoj i gledaj svaki datirani sloj na mapi kako ga prati.",
               "src": "machine",
               "h": "2ba7115d50af"
-            },
-            "firstRunHelpLink": {
-              "t": "Otvori vodiè.",
-              "src": "machine",
-              "h": "2447dd6134ea"
-            },
-            "firstRunDismiss": {
-              "t": "Otpust.",
-              "src": "machine",
-              "h": "70afe9eff3f2"
-            },
-            "helpStartTitle": {
-              "t": "Poènite ovde: tri koraka.",
-              "src": "machine",
-              "h": "789320b4831d"
             },
             "helpStart1": {
               "t": "Povuci klizaè, ili ukucaj datum u kutiju, do dana kada želiš da vidiš.",
@@ -46516,11 +46371,6 @@
               "src": "machine",
               "h": "6d69cd86c9c7"
             },
-            "helpTroubleTitle": {
-              "t": "Ako nešto nije u redu",
-              "src": "machine",
-              "h": "6f7fec3ff1e0"
-            },
             "helpTrouble1": {
               "t": "Sloj se ne menja: isključen je u mapi, nema polje datuma, ili koristi drugi datum nego što ste očekivali. Uključite ga, proverite Slojevi koji ne mogu da prate klizač, zatim izaberite datum u listi ispod klizača.",
               "src": "machine",
@@ -46580,11 +46430,6 @@
               "t": "- Kontaktiraj GIS odeljenje i pomeni ime Vremenske mašine i ovu aplikaciju.",
               "src": "machine",
               "h": "9ba460d6d949"
-            },
-            "helpTipsTitle": {
-              "t": "Dobro je znati.",
-              "src": "machine",
-              "h": "79fc372dc790"
             },
             "helpTips1": {
               "t": "Ako aplikacija ima Print Advanced, postavite datum ovde prvo: štampa sve što mapa pokazuje, tako da ispis nosi datum.",
@@ -46650,16 +46495,6 @@
               "t": "МоноспацеQShortcut",
               "src": "machine",
               "h": "216fcddff2f9"
-            },
-            "unknownError": {
-              "t": "nepoznata greška",
-              "src": "machine",
-              "h": "af6321ca7a8b"
-            },
-            "unserializableError": {
-              "t": "Neserijalizacijska greška",
-              "src": "machine",
-              "h": "76e73551597a"
             }
           }
         },
@@ -60993,14 +60828,14 @@
           }
         },
         "bs": {
-          "file": "ba63f07ae5ac",
+          "file": "6df5d8d246c0",
           "counts": {
-            "esri": 34,
+            "esri": 35,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 20,
+            "machine": 19,
             "stale": 0,
             "missing": 181
           },
@@ -61024,11 +60859,6 @@
               "t": "Pronađi sloj",
               "src": "machine",
               "h": "a38b81fce001"
-            },
-            "ruleRemove": {
-              "t": "_Ukloni pravilo:",
-              "src": "machine",
-              "h": "e0d4ffd03eb8"
             },
             "yearSets": {
               "t": "Snimci iz godine u godinu",
@@ -71285,12 +71115,12 @@
         "hr": {
           "file": "a4cdbf672de2",
           "counts": {
-            "esri": 34,
+            "esri": 35,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 201,
+            "machine": 200,
             "stale": 0,
             "missing": 0
           },
@@ -71589,11 +71419,6 @@
               "t": "Dodaj pravilo",
               "src": "machine",
               "h": "11cc2bfc041f"
-            },
-            "ruleRemove": {
-              "t": "Ukloni pravilo",
-              "src": "machine",
-              "h": "e0d4ffd03eb8"
             },
             "ruleLayerId": {
               "t": "Sloj",
@@ -88550,12 +88375,12 @@
         "sr": {
           "file": "029cc5526004",
           "counts": {
-            "esri": 32,
+            "esri": 33,
             "esri-check": 2,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 202,
+            "machine": 201,
             "stale": 0,
             "missing": 0
           },
@@ -88854,11 +88679,6 @@
               "t": "Додај правилоQShortcut",
               "src": "machine",
               "h": "11cc2bfc041f"
-            },
-            "ruleRemove": {
-              "t": "Уклони правилоQShortcut",
-              "src": "machine",
-              "h": "e0d4ffd03eb8"
             },
             "ruleLayerId": {
               "t": "Sloj id",
